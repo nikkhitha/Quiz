@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #001e4d;
+}
+.container{
+    background: #fff;
+    width:90%;
+    max-width:600px;
+    margin:6rem auto;
+    border-radius:1rem;
+    padding:1.3rem;
+}
+h1{
+    font-size:2.3rem;
+    color:#001e4d;
+    font-weight:600;
+    padding-bottom:13px;
+    border-bottom: 2px solid black;
+}
+#quiz{
+    padding-top:1rem;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#buttons{
+    margin-top:15px;
+}
+.btn{
+    width:100%;
+    padding:13px;
+    border-radius:12px;
+    text-align:left;
+    font-size: 14px;
+    font-weight: 700;
+    margin:10px 0;
+    cursor:pointer;
+    color:black;
+}
+.btn:hover{
+    background: rgba(0, 0, 0, 0.256);
+}
+#nxtbtn{
+    background-color:rgba(210, 105, 30, 0.767) ;
+    margin:20px auto 0;
+    width:90px;
+   text-align: center;
+   padding:8px;
+   font-size:1.5rem;
+   font-weight: bold;
+   border-radius: 13px;
+   cursor:pointer;
+   display:none;
+}
+.btn.correct{
+    background: #9aeabc;
+}
+.btn.incorrect{
+    background: #ff9393;
+}
